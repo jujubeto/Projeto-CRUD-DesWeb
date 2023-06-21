@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(142, 142, 214);
+    color: white;
+    font-family: Cambria, Arial;
+}
+body{
+    background-image: url(../img/backgraund-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+} 
+form{
+    font-family: Arial;
+}
+form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background-color: rgb(142, 142, 214);
+    border-radius: 20px;
+    padding: 30px;
+}
+form input{
+    outline: unset;
+    padding: 10px;
+    min-width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+form input:focus{
+    background-color: rgb(179, 179, 211);
+}
+form input[type=submit]{
+    background-color: rgb(142, 142, 214);
+    color: white;
+    cursor: pointer;
+}
+form label{
+    margin-left: 10px;
+}
+table{
+    width: 300px;
+    table-layout: auto;
+}
+table, th, td{
+    border: 2px solid #333;
+}
+tr{
+    font-size: 14pt;
+    background-color: white;
+    color: white;
+}
+th{
+    font-size: 14pt;
+    background-color: rgb(142, 142, 214);;
+    color: white;
+}
+td{
+    font-size: 14pt;
+    background-color: rgb(81, 81, 129);;
+    color: #CCCCCC;
+}
